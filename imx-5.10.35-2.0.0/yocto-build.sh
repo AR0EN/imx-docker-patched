@@ -10,6 +10,8 @@
 mkdir -p ${YOCTO_DIR}
 cd ${YOCTO_DIR}
 
+git config --global url."https://github.com/nxp-imx/uboot-imx".insteadOf https://source.codeaurora.org/external/imx/uboot-imx.git
+
 # Init
 
 repo init \
